@@ -45,7 +45,7 @@ pip install -r requirements.txt
 - Place in the training directory a bunch of 10000x10000 decorrelated complex SAR images and one in the test directory. During traning some 1000x1000 patches, extracted from the 10000x10000 test image, will be used as testing images. 
 
 #### Usage
-In _Speckle2Void\_train.ipynb_ the object Speckle2V is instantiated and some parameters are required:
+In _Speckle2Void-training.ipynb_ the Speckle2V object is instantiated and some parameters are required:
 
 
 ```
@@ -71,8 +71,8 @@ The SAR denoiser training starts by default from the latest checkpoint found in 
 The _s2v_checkpoint_ directory contains the model used to produce the results of the paper.
 
 #### Testing
-To test the trained model on the test examples and estimated the clean versions run _Speckle2Void\_train.ipynb_.
+Download sample test images from [here](https://www.dropbox.com/s/4gfkge0pqkuylmv/decorr_complex_tsx_SLC_0.mat?dl=0) and place them in the test_examples directory.
+To test the trained model on the test examples and estimated the clean versions run _Speckle2Void-prediction.ipynb_.
 
 ## Authors & Contacts
-
-Speckle2Void is based on work by team from the [Image Processing and Learning](https://ipl.polito.it/) group of Politecnico di Torino: Andrea Bordone Molini (andrea.bordone AT polito.it), Diego Valsesia (diego.valsesia AT polito.it), Giulia Fracastoro (giulia.fracastoro AT polito.it), Enrico Magli (enrico.magli AT polito.it).
+Speckle2Void is based on work by the [Image Processing and Learning](https://ipl.polito.it/) group of Politecnico di Torino: Andrea Bordone Molini (andrea.bordone AT polito.it), Diego Valsesia (diego.valsesia AT polito.it), Giulia Fracastoro (giulia.fracastoro AT polito.it), Enrico Magli (enrico.magli AT polito.it).
