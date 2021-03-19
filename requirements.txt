@@ -8,5 +8,5 @@ keras==2.3.1
 tifffile==2019.7.26.2
 csbdeep==0.5.1
 scikit-image==0.15.0
-pillow==6.0.0
+pillow==8.1.1
 h5py==2.9.0
